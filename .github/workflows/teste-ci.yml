@@ -3,10 +3,10 @@ name: Teste CI - Cypress
 on:
   push:
     branches: [ "main" ]
-
+  workflow-dispatch:
 permissions:
   contents: write
-  
+
 jobs:
   build:
 
